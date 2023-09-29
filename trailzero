@@ -1,0 +1,13 @@
+# write a program to count a traling zero?
+n =20
+a=1
+while n != 0:
+    a=a *n
+    n=n-1    
+print(a) 
+t=0
+while a % 10 == 0:
+    t=t+1
+    a=a//10
+print(t)    
+    
